@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Vitalité, le média qui décrypte l'actualité santé avec clarté et indépendance."
+    />
+    <title>Vitalité — L'actualité santé, bien expliquée</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="utility-bar">
+        <div class="container utility-inner">
+          <p>Samedi 15 août 2026</p>
+          <p><span class="live-dot" aria-hidden="true"></span> L'info santé en continu</p>
+        </div>
+      </div>
+      <div class="container nav-wrap">
+        <a class="brand" href="#" aria-label="Vitalité, accueil">
+          <span class="brand-mark" aria-hidden="true">V</span>
+          <span>vitalité<small>LE MÉDIA SANTÉ</small></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+          <span></span><span></span><span></span><span class="sr-only">Ouvrir le menu</span>
+        </button>
+        <nav id="main-nav" class="main-nav" aria-label="Navigation principale">
+          <a class="active" href="#actualites">Actualités</a>
+          <a href="#prevention">Prévention</a>
+          <a href="#bien-etre">Bien-être</a>
+          <a href="#nutrition">Nutrition</a>
+          <a href="#recherche">Recherche</a>
+        </nav>
+        <button class="search-button" type="button" aria-label="Rechercher">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section id="actualites" class="hero container">
+        <div class="hero-visual" role="img" aria-label="Médecin échangeant avec une patiente dans un cabinet lumineux">
+          <div class="abstract-shape shape-one"></div>
+          <div class="abstract-shape shape-two"></div>
+          <div class="medical-card" aria-hidden="true">
+            <span class="medical-cross">+</span>
+            <span class="pulse-line">⌁</span>
+          </div>
+        </div>
+        <article class="hero-content">
+          <span class="category">SANTÉ PUBLIQUE</span>
+          <h1>Prévenir plutôt que guérir&nbsp;: la santé change de cap</h1>
+          <p class="hero-deck">Dépistage, suivi personnalisé, nouvelles habitudes… La prévention s'installe au cœur de notre quotidien.</p>
+          <div class="article-meta">
+            <span class="author-avatar">CM</span>
+            <span><strong>Claire Martin</strong><small>8 min de lecture</small></span>
+          </div>
+          <a class="primary-link" href="#article-vedette">Lire l'article <span aria-hidden="true">→</span></a>
+        </article>
+      </section>
+
+      <section class="ticker" aria-label="À la une">
+        <div class="container ticker-inner">
+          <strong>À LA UNE</strong>
+          <p>Sommeil&nbsp;: pourquoi la régularité compte autant que la durée</p>
+          <span>•</span>
+          <p>Le point sur les allergies saisonnières</p>
+        </div>
+      </section>
+
+      <section class="container news-section">
+        <div class="section-heading">
+          <div><span class="eyebrow">À DÉCOUVRIR</span><h2>Les dernières actualités</h2></div>
+          <a href="#tous-les-articles">Voir tous les articles <span>↗</span></a>
+        </div>
+        <div class="article-grid">
+          <article id="article-vedette" class="news-card">
+            <div class="card-image image-sleep"><span class="image-icon">☾</span></div>
+            <div class="card-body">
+              <span class="category purple">SOMMEIL</span>
+              <h3>Mieux dormir&nbsp;: les 5 conseils validés par la science</h3>
+              <p>Des gestes simples pour retrouver des nuits vraiment réparatrices.</p>
+              <div class="card-meta"><span>12 août 2026</span><span>6 min</span></div>
+            </div>
+          </article>
+          <article class="news-card">
+            <div class="card-image image-food"><span class="image-icon">◒</span></div>
+            <div class="card-body">
+              <span class="category orange">NUTRITION</span>
+              <h3>Le microbiote, ce précieux allié de notre immunité</h3>
+              <p>Ce que les dernières études révèlent sur notre «&nbsp;deuxième cerveau&nbsp;».</p>
+              <div class="card-meta"><span>11 août 2026</span><span>7 min</span></div>
+            </div>
+          </article>
+          <article class="news-card">
+            <div class="card-image image-move"><span class="image-icon">↗</span></div>
+            <div class="card-body">
+              <span class="category green">BIEN-ÊTRE</span>
+              <h3>Bouger 20 minutes par jour change déjà beaucoup</h3>
+              <p>Marche, vélo ou jardinage&nbsp;: chaque mouvement compte pour votre santé.</p>
+              <div class="card-meta"><span>9 août 2026</span><span>5 min</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="prevention" class="expert-section">
+        <div class="container expert-grid">
+          <div class="expert-intro">
+            <span class="eyebrow light">PAROLE D'EXPERT</span>
+            <h2>Comprendre sa santé,<br />c'est déjà en prendre soin.</h2>
+            <p>Chaque semaine, un professionnel répond sans jargon à vos questions.</p>
+          </div>
+          <blockquote>
+            <span class="quote-mark">“</span>
+            <p>La prévention n'est pas une liste d'interdits. C'est donner à chacun les moyens de faire des choix éclairés, à son rythme.</p>
+            <footer><span class="expert-avatar">AL</span><span><strong>Dr Antoine Leroy</strong><small>Médecin généraliste</small></span></footer>
+          </blockquote>
+        </div>
+      </section>
+
+      <section id="nutrition" class="container newsletter">
+        <div>
+          <span class="eyebrow">LA LETTRE VITALITÉ</span>
+          <h2>Le meilleur de la santé,<br />dans votre boîte mail.</h2>
+          <p>Chaque jeudi, une sélection claire, utile et sans anxiété. Gratuitement.</p>
+        </div>
+        <form class="signup-form">
+          <label class="sr-only" for="email">Votre adresse e-mail</label>
+          <input id="email" type="email" placeholder="votre@email.fr" required />
+          <button type="submit">Je m'inscris <span>→</span></button>
+          <small>En vous inscrivant, vous acceptez notre politique de confidentialité.</small>
+          <p class="form-message" role="status"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="brand footer-brand" href="#"><span class="brand-mark">V</span><span>vitalité<small>LE MÉDIA SANTÉ</small></span></a>
+        <p>Une information fiable pour une santé éclairée.</p>
+        <p>© 2026 Vitalité</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
