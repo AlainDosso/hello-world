@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SoloFlow aide les indépendants à automatiser leurs tâches répétitives grâce à des guides clairs, des workflows et les bons outils.">
+  <title>SoloFlow — Automatisez votre activité, pas votre personnalité.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="SoloFlow, accueil">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i></span>
+      <span>Solo<span>Flow</span></span>
+    </a>
+    <nav aria-label="Navigation principale">
+      <a href="#guides">Guides</a>
+      <a href="#categories">Outils</a>
+      <a href="#workflows">Workflows</a>
+      <a href="#newsletter">Ressources</a>
+    </nav>
+    <a class="header-cta" href="#newsletter">La newsletter <span>→</span></a>
+    <button class="menu-button" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <div class="eyebrow"><span>✦</span> Le média des indépendants efficaces</div>
+        <h1>Automatisez votre activité.<br><em>Pas votre personnalité.</em></h1>
+        <p>Des guides concrets, des workflows prêts à l'emploi et les bons outils pour gagner du temps — quand on travaille seul.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#guides">Explorer les guides <span>→</span></a>
+          <a class="button secondary" href="#newsletter"><span class="mail-icon">✉</span> Recevoir les pépites du lundi</a>
+        </div>
+        <div class="trust"><span class="avatars"><i>MC</i><i>AL</i><i>JM</i></span><strong>1 200+ indépendants</strong> gagnent déjà du temps avec nous.</div>
+      </div>
+
+      <div class="hero-visual" id="workflows" aria-label="Exemple de workflow automatisé">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="workflow-card">
+          <div class="card-top"><span>WORKFLOW ACTIF</span><i></i></div>
+          <h2>Relance de devis</h2>
+          <div class="workflow-step">
+            <span class="tool-icon mail">M</span><div><small>DÉCLENCHEUR</small><b>Nouveau devis envoyé</b></div><span class="check">✓</span>
+          </div>
+          <div class="connector"><span></span><small>Attendre 3 jours</small></div>
+          <div class="workflow-step">
+            <span class="tool-icon bolt">ϟ</span><div><small>ACTION</small><b>Vérifier le statut</b></div><span class="check">✓</span>
+          </div>
+          <div class="connector short"><span></span></div>
+          <div class="workflow-step active">
+            <span class="tool-icon send">➤</span><div><small>SI SANS RÉPONSE</small><b>Envoyer une relance</b></div><span class="check">✓</span>
+          </div>
+          <div class="card-footer"><span>Dernière exécution : aujourd'hui, 09:42</span><b>3 min économisées</b></div>
+        </div>
+        <div class="float-badge badge-time"><span>↗</span><div><b>+ 6h</b><small>gagnées / semaine</small></div></div>
+        <div class="float-badge badge-auto"><span>⚡</span><div><b>Ça tourne tout seul</b><small>Même quand vous dormez</small></div></div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Thématiques">
+      <span>MAKE</span><i>✦</i><span>NOTION</span><i>✦</i><span>IA</span><i>✦</i><span>N8N</span><i>✦</i><span>CRM</span><i>✦</i><span>ZAPIER</span><i>✦</i><span>NO-CODE</span>
+    </section>
+
+    <section class="categories" id="categories">
+      <div class="categories-intro">
+        <div>
+          <div class="eyebrow"><span>✦</span> La boîte à outils du solopreneur</div>
+          <h2>Une question, un besoin,<br><em>un point de départ.</em></h2>
+        </div>
+        <p>Explorez nos guides par métier. Quinze catégories pensées pour couvrir toute votre activité — de la première idée jusqu'à la facture payée.</p>
+      </div>
+
+      <div class="category-grid">
+        <a class="category-card category-card--featured" href="#guides">
+          <span class="category-icon">✦</span>
+          <span class="category-copy"><strong>Intelligence artificielle</strong><small>Assistants IA, rédaction, recherche, images et agents.</small></span>
+          <span class="category-arrow">↗</span>
+        </a>
+        <a class="category-card" href="#guides"><span class="category-icon">⌁</span><span class="category-copy"><strong>Automatisation &amp; no-code</strong><small>Make, n8n, Zapier et workflows.</small></span><span class="category-arrow">↗</span></a>
+        <a class="category-card" href="#guides"><span class="category-icon">◎</span><span class="category-copy"><strong>CRM &amp; gestion clients</strong><small>Prospects, pipeline et suivi clients.</small></span><span class="category-arrow">↗</span></a>
+        <a class="category-card" href="#guides"><span class="category-icon">€</span><span class="category-copy"><strong>Facturation &amp; comptabilité</strong><small>Devis, factures, dépenses et trésorerie.</small></span><span class="category-arrow">↗</span></a>
+        <a class="category-card" href="#guides"><span class="category-icon">▦</span><span class="category-copy"><strong>Gestion de projet</strong><small>Notion, ClickUp, Trello et Monday.</small></span><span class="category-arrow">↗</span></a>
+        <a class="category-card" href="#guides"><span class="category-icon">✓</span><span class="category-copy"><strong>Productivité &amp; organisation</strong><small>Tâches, calendrier, temps et notes.</small></span><span class="category-arrow">↗</span></a>
+        <a class="category-card" href="#guides"><span class="category-icon">@</span><span class="category-copy"><strong>Email &amp; newsletter</strong><small>Brevo, Mailchimp, GetResponse et Kit.</small></span><span class="category-arrow">↗</span></a>
+        <a class="category-card" href="#guides"><span class="category-icon">◇</span><span class="category-copy"><strong>Création de site &amp; hébergement</strong><small>WordPress, Webflow, domaines et hébergeurs.</small></span><span class="category-arrow">↗</span></a>
+        <a class="category-card" href="#guides"><span class="category-icon">↗</span><span class="category-copy"><strong>SEO &amp; référencement</strong><small>Mots-clés, positions, Semrush et Ahrefs.</small></span><span class="category-arrow">↗</span></a>
+        <a class="category-card" href="#guides"><span class="category-icon">⌖</span><span class="category-copy"><strong>Marketing &amp; acquisition</strong><small>Landing pages, formulaires et conversion.</small></span><span class="category-arrow">↗</span></a>
+        <a class="category-card" href="#guides"><span class="category-icon">◒</span><span class="category-copy"><strong>Prospection &amp; vente</strong><small>Cold email, enrichissement et rendez-vous.</small></span><span class="category-arrow">↗</span></a>
+        <a class="category-card" href="#guides"><span class="category-icon">✎</span><span class="category-copy"><strong>Design &amp; création de contenu</strong><small>Canva, Adobe, vidéo et présentations.</small></span><span class="category-arrow">↗</span></a>
+        <a class="category-card" href="#guides"><span class="category-icon">◉</span><span class="category-copy"><strong>Réunions &amp; communication</strong><small>Visio, transcription et comptes rendus IA.</small></span><span class="category-arrow">↗</span></a>
+        <a class="category-card" href="#guides"><span class="category-icon">▣</span><span class="category-copy"><strong>Cybersécurité &amp; sauvegarde</strong><small>VPN, mots de passe, stockage et backup.</small></span><span class="category-arrow">↗</span></a>
+        <a class="category-card" href="#guides"><span class="category-icon">⌑</span><span class="category-copy"><strong>Documents &amp; signature</strong><small>PDF, contrats et gestion documentaire.</small></span><span class="category-arrow">↗</span></a>
+      </div>
+    </section>
+
+    <section class="guides" id="guides">
+      <div class="section-heading">
+        <div><div class="eyebrow"><span>✦</span> Passez à l'action</div><h2>Commencez par une tâche<br><em>que vous détestez faire.</em></h2></div>
+        <a href="#">Voir tous les guides <span>→</span></a>
+      </div>
+      <div class="guide-grid">
+        <article class="guide-card featured"><div class="card-art purple"><span>DEVIS</span><b>→</b><span>RELANCE</span></div><div class="tag">VENTE · 8 MIN</div><h3>Relancer automatiquement un devis sans réponse</h3><p>Un workflow simple pour rester présent sans passer pour insistant.</p><a href="#">Lire le guide <span>→</span></a></article>
+        <article class="guide-card"><div class="card-art mint"><span>🎙</span><b>→</b><span>✓</span></div><div class="tag">PRODUCTIVITÉ · 12 MIN</div><h3>Transformer une réunion en compte rendu + tâches</h3><p>L'IA écoute, résume et range. Vous pouvez enfin vous concentrer sur l'échange.</p><a href="#">Lire le guide <span>→</span></a></article>
+        <article class="guide-card"><div class="card-art orange"><span>@</span><b>→</b><span>CRM</span></div><div class="tag">PROSPECTION · 10 MIN</div><h3>Créer une fiche prospect depuis un simple email</h3><p>Ne laissez plus aucun contact prometteur se perdre dans votre boîte mail.</p><a href="#">Lire le guide <span>→</span></a></article>
+      </div>
+    </section>
+
+    <section class="newsletter" id="newsletter">
+      <div><span class="spark">✦</span><p>UNE IDÉE ACTIONNABLE. CHAQUE LUNDI.</p><h2>Moins de tâches.<br>Plus de <em>vous.</em></h2></div>
+      <form><label class="sr-only" for="email">Votre adresse email</label><input id="email" type="email" placeholder="vous@email.fr" required><button type="submit">Je m'inscris <span>→</span></button><small>Gratuit. Sans spam. Désabonnement en un clic.</small></form>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#"><span class="brand-mark"><i></i><i></i></span><span>Solo<span>Flow</span></span></a><p>Le média pratique pour automatiser son activité quand on travaille seul.</p><span>© 2026 SoloFlow</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
